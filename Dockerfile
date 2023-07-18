@@ -8,7 +8,7 @@ RUN apt update \
 
 RUN apt update \
     && DEBIAN_FRONTEND=noninteractive apt install -y php7.4 \
-    && apt install -y php7.4-curl php7.4-mbstring php7.4-xml php7.4-zip
+    && apt install -y php7.4-curl php7.4-mbstring php7.4-xml php7.4-gd php7.4-zip
 
 # INSTALL COMPOSER
 
