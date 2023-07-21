@@ -21,4 +21,4 @@ RUN mv composer.phar /usr/local/bin/composer
 
 # INSTALL OTHER PACKAGES
 
-RUN apt install -y sudo
+RUN apt install -y sudo zip unzip
